@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card__title">
+          <h1>Gasing Game</h1>
+        </div>
+        <div class="card__body">
+          <form action="#">
+            <div class="form__field">
+              <label for="gassingNumber">Gass a number betwen 1-5</label>
+              <input
+                type="number"
+                id="gassingNumber"
+                min="1"
+                max="5"
+                required
+              />
+            </div>
+            <div class="check__button">
+              <button type="submit" id="check" class="btn">Check result</button>
+            </div>
+          </form>
+          <p class="resultText"></p>
+          <p class="remaingAtempt"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./apps.js"></script>
+  </body>
+</html>
